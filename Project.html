@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Preview</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .Heading1 {
+        text-align: center;
+        margin-top: 2rem;
+        text-transform: uppercase;
+    }
+
+    .main_container {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        background-color: #eeb956;
+        padding: 1rem 0rem 0 0 ;
+    }
+
+    .heading2 {
+        margin: 0 2rem 2rem 6px;
+        font-family: "open", sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+
+    }
+
+    .para {
+        font-family: "open", sans-serif;
+        font-size: 16px;
+        margin: 0 2rem 1rem 6px;
+
+    }
+
+    .text {
+       
+        margin: 0 2rem 1rem 4rem;
+        font-family: "open", sans-serif;
+        font-style: italic;
+    }
+
+    .para2 {
+        font-family: "open", sans-serif;
+        font-size: 16px;
+        margin: 0 2rem 1rem 6px;
+    }
+
+    .lab {
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0 2rem 2rem 6px;
+        border-top: 2px solid #55555548;
+        padding: 4px;
+        font-family: "open", sans-serif;
+    }
+
+    .white {
+        color: white;
+    }
+
+    .done{
+        width: 100%;
+        text-align: justify;
+        padding: 6px 0;
+        border: none;
+        outline: none;
+    }
+    .html{
+        color: #eb1c1c;
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <h1 class="Heading1">The Photo is below</h1>
+    <div class="main_container">
+        <div class="container">
+            <h1 class="heading2">A Very Simple HTML Page</h1>
+            <p class="para">Web pages are written in a language called <a href="#" class="html">HTML</a>. Ordinary text is written as <br> ordinary
+                text, but when we need links, headiines, lists,</p>
+            <ul class="text">
+                <li class="emphas"><strong>Emphasized words</strong>, or</li>
+                <li class="bold"><strong>boldface text.</strong></li>
+            </ul>
+            <div class="para2">we need to embed the text inside HTML tags. We can also insert GIF or PNG <br> images,
+                taken from other Internet sites, if desired.</div>
+            <div class="lab">[ <span class="white">simula</span> research laboratory ]</div>
+            <button class="done" type="submit">Done</button>
+        </div>
+    </div>
+</body>
+
+</html>
